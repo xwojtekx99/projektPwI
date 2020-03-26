@@ -1,0 +1,143 @@
+body
+{
+    background-image: url(tlo.jpg);
+    font-family: 'Martel', serif;
+    font-size: 10px; 
+    background-size: cover; 
+    color: whitesmoke; 
+    margin: 0;
+}
+
+#container
+{
+    width: auto; 
+    margin:0;
+    padding: 0; 
+}
+
+.header
+{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: auto; 
+    
+}
+
+.rectangle
+{
+    width: 10%; 
+    float: left; 
+}
+
+#nazwa 
+{
+    width: auto;
+    padding: 0;
+    margin: 0; 
+    font-size: 40px;
+    font-family: 'Baloo Paaji 2', cursive;
+    text-align: center; 
+    background-color:#2B2B2B;  
+    
+}
+
+#pasek 
+{
+    float: left; 
+    width: 12%; 
+    font-size: 20px; 
+    text-align: left; 
+    background-color:#2B2B2B;
+    margin:0; 
+
+    
+}
+#glowna
+{
+    float: left;
+    width: 80%; 
+    font-size: 25px; 
+    text-align: start; 
+    margin-left: 4%; 
+    margin-right: 4%;  
+    margin-top: -20px;
+}
+
+.p
+{
+    margin: 10px; 
+}
+
+
+.stopka 
+{
+    margin-top: 24px; 
+    width: auto; 
+    background-color: #2B2B2B; 
+    padding: 6px;
+
+}
+
+#stopk
+{
+    width: auto;
+    margin: 0;
+    font-size: 10px;
+    font-family: 'Baloo Paaji 2', cursive;
+    text-align: center; 
+    
+}
+
+a.textlink
+{
+    color: whitesmoke; 
+    text-decoration: none;     
+}
+a.textlink:hover
+{
+    color: #2FBF00; 
+    text-decoration: underline; 
+    text-decoration-color: #2FBF00; 
+}
+#zaloguj
+{
+    font-family: 'Martel', serif;
+    font-size: 20px; 
+    text-align: center; 
+    margin-left: 40%; 
+    margin-right: 40%;
+    margin-bottom:-40px; 
+    width:auto; 
+    background-color: darkgreen;
+}
+#dane
+{
+    font-family: 'Martel', serif;
+    font-size: 10px; 
+    text-align: center; 
+    margin-left: 30%; 
+    margin-right: 30%;
+    margin-bottom: 0; 
+    width:auto; 
+    padding: 25px; 
+    background-color: darkgreen;
+}
+.przycisk
+{
+    margin-top: -20px;
+    margin-bottom: -20px; 
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darkgreen;
+    width: 120px;
+    
+    
+}
+.przycisk:hover
+{
+    color: gray; 
+    text-decoration: underline;
+}
