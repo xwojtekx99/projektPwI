@@ -1,0 +1,123 @@
+body
+{
+    background-image: url(tlo.jpg);
+    font-family: 'Martel', serif;
+    font-size: 10px; 
+    background-size: cover; 
+    color: whitesmoke; 
+    margin: 0;
+}
+
+#container
+{
+    width: auto; 
+    margin:0;
+    padding: 0; 
+}
+
+
+.rectangle
+{
+    width: 10%; 
+    float: left; 
+}
+
+header
+{
+    width: auto;
+    padding: 0;
+    margin: 0; 
+    font-size: 70px;
+    font-family: 'Baloo Paaji 2', cursive;
+    text-align: center; 
+    background-color:#2B2B2B;  
+    
+}
+
+nav
+{
+    float: left; 
+    width: 250px;  
+    font-size: 35px; 
+    text-align: left; 
+    background-color:#2B2B2B;
+    margin:0; 
+
+    
+}
+article
+{
+    float: left;
+    width: 78%; 
+    font-size: 25px; 
+    text-align: center; 
+    margin-left: 4%; 
+    margin-right: 4%;
+    margin-bottom: 251px;
+    
+    
+}
+
+.p
+{
+    margin: 10px; 
+}
+
+
+footer 
+{
+    margin-top: 176px; 
+    width: auto; 
+    background-color: #2B2B2B; 
+    padding: 4px;
+    font-size: 14px;
+    font-family: 'Baloo Paaji 2', cursive;
+    text-align: center; 
+}
+
+a.textlink
+{
+    color: whitesmoke; 
+    text-decoration: none;     
+}
+a.textlink:hover
+{
+    color: #2FBF00; 
+    text-decoration: underline; 
+    text-decoration-color: #2FBF00; 
+}
+
+#usun
+{
+   text-align: center;
+    width: 120px;
+    text-decoration: none; 
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration-line: none;
+    background-color: dimgray;
+}
+
+#usun:hover
+{
+    text-decoration: underline; 
+    color: darkred;
+}
+#delete
+{
+    background-color: darkgreen; 
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+#dane
+{
+    background-color: darkgreen;
+    margin-top: -50px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
