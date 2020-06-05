@@ -47,7 +47,7 @@ nav
 article
 {
     float: left;
-    width: 100%; 
+    width: auto; 
     font-size: 25px; 
     text-align: start; 
     margin-left: 4%; 
