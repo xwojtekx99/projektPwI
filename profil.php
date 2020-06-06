@@ -1,24 +1,18 @@
 <?php
-  // Create database connection
+  
   $db = mysqli_connect("localhost", "root", "", "instaboard");
-
-  // Initialize message variable
   $msg = "";
-
-  // If upload button is clicked ...
+  $target_dir = "images/";
+  $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+  $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
   if (isset($_POST['upload'])) {
-  	// Get image name
-  	$image = $_FILES['image']['name'];
-  	// Get text
+  	$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+    $image = $_FILES['image']['name'];
   	$image_text = mysqli_real_escape_string($db, $_POST['image_text']);
-
-  	// image file directory
   	$target = "images/".basename($image);
 
   	$sql = "INSERT INTO post (image, image_text,profil_fk) VALUES ('$image', '$image_text',NULL)";
-  	// execute query
   	mysqli_query($db, $sql);
-
   	if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
   		$msg = "Image uploaded successfully";
   	}else{
@@ -128,10 +122,10 @@
                         cols="40" 
                         rows="4" 
                         name="image_text" 
-                        placeholder="Say something about this image..."></textarea>
+                        placeholder="Podpisz się i dodaj opis :)"></textarea>
                     </div>
                     <div>
-                        <button type="submit" name="upload">POST</button>
+                        <button type="submit" name="upload">DODAJ</button>
                     </div>
                   </form>
                 </div>
